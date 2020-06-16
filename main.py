@@ -24,7 +24,8 @@ class flights():
         destination.send_keys(DESTINATION)
         time.sleep(1)
         departDate = driver.find_element_by_id("DepartDate")
-        departDate.send_keys(Keys.BACK_SPACE, Keys.BACK_SPACE, Keys.BACK_SPACE, Keys.BACK_SPACE, Keys.BACK_SPACE, Keys.BACK_SPACE )
+        departDate.send_keys(Keys.BACK_SPACE, Keys.BACK_SPACE, Keys.BACK_SPACE, 
+                             Keys.BACK_SPACE, Keys.BACK_SPACE, Keys.BACK_SPACE)
         departDate.send_keys(DATE)
         time.sleep(2)
         driver.find_element_by_xpath("//html").click()
