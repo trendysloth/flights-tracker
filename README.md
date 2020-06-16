@@ -1,5 +1,5 @@
 # flights-tracker
-Tracking United Airline's flights between Shanghai and San Francisco. Implemented using Selenium Library.
+Tracking United Airline's flights between Shanghai and San Francisco. Implemented using Python Selenium Library.
 
 ## To run
 ```
